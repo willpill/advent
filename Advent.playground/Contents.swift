@@ -26,7 +26,7 @@ func time(discs: [Disc]) -> Int {
     }
 }
 
-let discs = [
+var discs = [
     Disc(positions: 7, initialPosition: 0),
     Disc(positions: 13, initialPosition: 0),
     Disc(positions: 3, initialPosition: 2),
@@ -34,6 +34,8 @@ let discs = [
     Disc(positions: 17, initialPosition: 0),
     Disc(positions: 19, initialPosition: 7)
 ]
+
+discs.append(Disc(positions: 11, initialPosition: 0))
 
 let firstTime = time(discs: discs)
 print(firstTime)
