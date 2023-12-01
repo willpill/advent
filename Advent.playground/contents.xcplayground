@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='macos' buildActiveScheme='true' importAppTypes='true'>
     <pages>
-        <page name='Day15'/>
-        <page name='Day1'/>
-        <page name='Day12'/>
-        <page name='Day7'/>
+        <page name='2016-15'/>
+        <page name='2016-1'/>
+        <page name='2016-12'/>
+        <page name='2016-7'/>
+        <page name='2023-1'/>
     </pages>
 </playground>
